@@ -1,12 +1,12 @@
-let numéro = document.getElementById('fname');
+let nom = document.getElementById('fname');
 
 const resultat = document.getElementById('resultat')
 
-if (numéro.value == 1){
-    resultat.innerHTML = ('nombre de lettre:' + 1);
+if (nom.value == ''){
+    resultat.innerHTML = ('Votre prénom est:');
 }
 document.getElementById("fname").onchange = function() {myFunction()};
 
-numéro.addEventListener("input", function(){
-    resultat.innerHTML = 'nombre de lettre:' + numéro.value;
+nom.addEventListener("input", function(){
+    resultat.innerHTML = 'Votre prénom est:' + ' ' + nom.value;
 });
