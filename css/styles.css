@@ -1,0 +1,321 @@
+body#index
+{
+  background-color: #92999f;
+}
+.picture-rogn
+{
+  height: 613px;
+  width: 100%;
+}
+.border-line
+{ 
+  width: 100%;
+  height: 5px;
+  background-color: #f90;
+  border: none; 
+} 
+.border-line-1
+{
+  width: 17%;
+  height: 3px;
+  background-color: cornflowerblue;
+  border: none;
+}
+.img-cuisiner-rogn
+{
+  height: 320px;
+  width: 320px;
+  margin-top: 30px;
+  border: solid 3px orange;
+  
+}
+.meme-line
+{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.text-align-264
+{
+margin-left: 130px;
+border: dashed 2px cornflowerblue;
+padding: 40px;
+}
+.card-horaires
+{
+text-align: center;
+margin-right: 300px;
+margin-left: 300px;
+margin-top: 130px;
+}
+.card-text
+{
+  text-align: left;
+  margin-left: 12px;
+  font-size: 23px;
+  margin-top: 2px;
+  
+}
+.rangement-horaire
+{
+  margin-bottom: 100px;
+  margin-left: 12px;
+  text-align: left;
+  font-family: 'Charm', cursive;
+  font-size: 35px;
+}
+.moyens-de-paiement
+{
+ margin-left: 50px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.align-item-paiement
+{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.footer-fond
+{
+  background-image: url(/images/background/footer-fond-noir-polygonale.jpg);
+  height: 500px;
+  width: 100%;
+}
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+.footer-distributed .footer-left
+{
+	width: 40%;
+}
+.footer-distributed h3
+{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span
+{
+	color:  #5383d3;
+}
+.footer-distributed .footer-links
+{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a
+{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name
+{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+.footer-distributed .footer-center
+{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i
+{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope
+{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p
+{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span
+{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a
+{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+.footer-distributed .footer-right
+{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about
+{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span
+{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons
+{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a
+{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+  .footer-distributed .footer-right
+  {
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+  .footer-distributed .footer-center 
+{
+		margin-left: 0;
+}
+}
+body#contact
+{
+	background: url(/images/background/bulle.jpg);
+}
+.restaurant-contact
+{
+  height: 350px;
+  width: 100%;
+}
+.btn
+{
+  margin-left: 12px;
+  transition: 5s;
+  margin-bottom: 32px;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.button-contact-accueil
+{
+	margin-left: 50px;
+	color: #f90;
+}
+.checkbox-contact
+{
+	margin-bottom: 15px;
+}
+.nous-contacter-h3
+{
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+}
+.p-messure
+{
+	font-size: 20px;
+}
+body#body-menu
+{
+	padding: 0%;
+	margin: 0%;
+	background: url(/images/background/alcohol-architecture-bar-260922.jpg)  ;
+}
+
+

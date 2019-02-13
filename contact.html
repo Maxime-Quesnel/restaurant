@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nous contacter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="/demo.js">
+</head>
+
+<body id="contact">
+
+
+    <img class="restaurant-contact" src="/images/background/iphone-x.jpeg">
+    <div class="nous-contacter-h3">
+        <h3>Nous Contacter</h3>
+    </div>
+
+    <!--- notre pop up-->
+    <div>
+        <hr class="border-line-1">
+        <a onclick="M.toast({html: 'Pour toute demande de renseignements ou suggestions sur notre site, hésitez pas à nous contacter, nous vous répondrons dans les plus brefs délais.'})"
+            class="btn #ffb74d orange lighten-2">Veuillez cliquer avant de remplir le formulaire</a> </div>
+
+    <div class="button-contact-accueil">
+        <a class="waves-effect #9e9d24 lime darken-3 btn-large" href="index.html">Accueil</a>
+    </div>
+
+
+    <!--- en dessus le formulaire-->
+
+    <h3>Nous Contacter</h3>
+    <div class="container">
+        <form action="/index.html">
+            <label for="fname">Votre prénom</label>
+            <input type="text" id="fname" name="firstname" placeholder="votre Prénom" maxlenght="12" required>
+            <p id="resultat"></p>
+
+            <label for="lname">Votre Nom</label>
+            <input type="text" id="lname" name="lastname" placeholder="votre Nom" required>
+
+            <label for="lname">Votre adresse mail</label>
+            <input type="email" id="lmail" name="email" placeholder="votre mail" required>
+
+
+            <div class="checkbox-contact">
+                <form action="#">
+                    <p>
+                        <label>
+                            <input type="checkbox" />
+                            <span>Homme</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input type="checkbox" />
+                            <span>Femme</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input type="checkbox" />
+                            <span>Autres</span>
+                        </label>
+                    </p>
+
+                    <p class="p-messure"> numéro de réservation:</p>
+                    <form action="#">
+                        <p class="range-field">
+                            <input type="range" class="#ffb74d orange lighten-2" id="reservation-ticket" value="1" min="1"
+                                max="500" />
+                        </p>
+                        <p id="result"></p>
+                    </form>
+                </form>
+
+
+
+                <label for="subject">Votre message</label>
+                <textarea id="subject" name="subject" placeholder="veuillez ecrire ici" style="height:200px"></textarea>
+
+
+                <button class="btn waves-effect waves-light" type="submit" name="action">
+                    <i class="material-icons right">Envoyer</i>
+                </button>
+
+        </form>
+    </div>
+
+
+
+
+
+
+    <script src="/contact-numéro-réservation-js/displayValue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="/prénom.js"></script>
+
+
+
+</body>
+
+</html>
